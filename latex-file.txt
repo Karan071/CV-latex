@@ -1,0 +1,203 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins for tighter layout
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-1.0in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+% Subsection formatting
+\titleformat{\subsection}{
+  \vspace{-6pt}\scshape\raggedright\normalsize
+}{\hspace{-.15in}}{0em}{}[\color{black}\vspace{-6pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% -------------------- CUSTOM COMMANDS --------------------
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4pt} % Reduced vertical space
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-4pt} % Reduced vertical space
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-4pt} % Reduced vertical space
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-2pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\setlength{\footskip}{4.08003pt}
+
+% -------------------- START OF DOCUMENT --------------------
+\begin{document}
+
+% -------------------- HEADING--------------------
+\begin{flushright}
+  \color{gray}
+  \item
+\end{flushright}
+
+\vspace{-15pt}
+
+\begin{center}
+    \textbf{\Huge \scshape Karan Chourasia} \\ \vspace{8pt}
+    \small 
+     \faIcon{phone}
+    \href{tel:+919582292422}
+    {\underline{+919582292422}}
+    \faIcon{linkedin}
+    \href{https://www.linkedin.com/in/karan-chourasia/}{\underline{linkedin.com/in/karan-chourasia}} $  $
+    \faIcon{envelope}
+    \href{mailto:kc2532002@gmail.com}
+    {\underline{kc2532002@gmail.com}} $  $    
+   \faIcon{github}
+\href{https://github.com/Karan071}
+    {\underline{github.com/Karan071}}
+\end{center}
+
+\section{Education}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Lovely Professional University}{Aug 2020 - Jul 2024}
+      {BTech. Computer Science}{Current CGPA: 8.14}
+    \vspace{-10pt}
+    \subsection{Coursework}
+      \textbf{Courses:} Data Structures \& Algorithms, OOPs Concept, Full Stack Development, Android Development, Operating Systems, Computer Networks, Web Development
+  \resumeSubHeadingListEnd
+  
+% -------------------- EXPERIENCE --------------------
+\section*{Experience}
+\noindent\textbf{\textbf{Technical Operations Engineer}} \hfill Nov 2023 - July 2024\\
+\textit{Corizo, Bengaluru}
+\begin{itemize}[leftmargin=0.15in] % Reduced left margin
+    \item Web Development: Design, develop, and optimize web applications and backend services to ensure they meet performance, scalability, and security requirements.
+
+    \item Technical Troubleshooting: Diagnosed and resolved complex technical issues, improving report functionality and contributing to more efficient business processes.
+    \item Business Strategy Insight: Collaborated with cross-functional teams to gain deep insights into organizational strategies, optimizing business operations and identifying key drivers of success.
+\end{itemize}
+
+% -------------------- SKILLS --------------------
+\section{Skills}
+\resumeSubHeadingListStart
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C/C++, Python, SQL, HTML, CSS, Javascript, Dart} \\ 
+  \textbf{Libraries/Frameworks}{: React, Flutter, Tailwind} \\
+
+    \textbf{Tools/Platforms}{: VS Code, MS SQL, MS Excel, Replit}
+
+     \textbf{Back-end}{: Node JS, Express Js, Mongo DB}
+
+\textbf{Cloud Computing/Devops}{: AWS, Git/GitHub} \\
+     
+    }}
+\resumeSubHeadingListEnd
+ \end{itemize}
+
+% -------------------- PROJECTS --------------------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Culinary Cruise} $|$ \footnotesize\emph{React,Tailwind CSS, Node.js, MongoDB, Express, Stripe}}    
+{\href{https://github.com/Karan071/Culinary-cruise}{\underline{Source Code}}}
+\begin{itemize}[leftmargin=0.15in] % Reduced left margin
+\item Designed and developed an app to streamline food ordering and delivery, offering users an efficient, easy-to-use platform to browse menus, place orders, and securely pay through an integrated stripe payment system.
+\item Engineered a high-performance backend with Node.js and Express, integrated with MongoDB, achieving a 30\% increase in user engagement through fast, reliable, and scalable operations.
+\item Enhanced application speed by optimizing load times by 25\%, providing a seamless user experience across all devices and significantly improving overall user satisfaction in the fast-paced food delivery market.
+\end{itemize}
+\resumeProjectHeading
+{\textbf{Tour Travel Website} $|$ \footnotesize\emph{HTML, CSS, Javascript}}
+{\href{https://github.com/Karan071/TourTravelWeb}{\underline{Source Code}}}
+\begin{itemize}[leftmargin=0.15in] % Reduced left margin
+\item Created a fully interactive and responsive travel guide website, resulting in a 35\% boost in user engagement and a 20\% reduction in bounce rate by delivering a compelling and immersive user experience.
+\item Integrated personalized travel itineraries, destination guides, and user reviews, which led to a 25\% increase in user retention and a 40\% boost in overall site interaction, making the site a valuable resource for travelers.
+\item Optimized site performance to decrease page abandonment rates by 30\%, ensuring rapid load times and a seamless user experience, while delivering personalized travel plans and detailed destination guides for effective trip planning.
+\end{itemize}
+\resumeProjectHeading
+{\textbf{Techno News} $|$ \footnotesize\emph{React}}
+{\href{https://github.com/Karan071/TechnoNews}{\underline{Source Code}}}
+\begin{itemize}[leftmargin=0.15in] % Reduced left margin
+\item Constructed a React-based web application that dynamically fetches and displays newsletters and posts from an external API, featuring a responsive user interface designed with React components for cross-browser compatibility and accessibility.
+\item Applied responsive design principles, leading to a 30\% increase in mobile user engagement.
+\item Optimized API calls using async/await, reducing loading times by 15\%.
+\end{itemize}
+\resumeSubHeadingListEnd
+
+% ------------------------%
+ 
+\section{Certifications}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Full Stack Web Development, 100xdevs} \hfill \href{https://drive.google.com/file/d/1gMETmHXTlWSlzS4z7ATQDtT2YZRQzPvb/view?usp=sharing}{\underline{Link}}}
+{Apr 2024}
+\resumeProjectHeading
+{\textbf{Database Management System, Infosys} \hfill \href{https://drive.google.com/file/d/1cjhA-CeXZ2QOgBmEiPubP7vW4gu0UXOe/view?usp=sharing}{\underline{Link}}}
+{Jul 2023}
+\resumeProjectHeading
+{\textbf{Flutter Programming, Programming Pathshala} \hfill \href{https://drive.google.com/file/d/1dro3vIvd6E-UTIW0bUfUCO12lid8DH3y/view?usp=sharing}{\underline{Link}}}
+{Mar 2023}
+\resumeProjectHeading
+{\textbf{C++ and Data Structures and Algorithm, Fifth Force} \hfill \href{https://drive.google.com/file/d/1BBMBZ8KByZeouhwPW4IROsq01rpdsPFT/view?usp=sharing}{\underline{Link}}}
+{Jun 2022}
+    \resumeSubHeadingListEnd 
+\end{document}
